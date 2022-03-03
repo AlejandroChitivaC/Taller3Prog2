@@ -1,0 +1,69 @@
+.navbar {
+  width: 100%;
+  padding-left: 30px;
+  background: rgb(58, 62, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 62, 180, 1) 0%,
+    rgba(240, 129, 129, 1) 50%,
+    rgba(69, 177, 252, 1) 100%
+  );
+}
+
+
+.navbar li {
+  color: white;
+  list-style: none;
+  display: block;
+}
+
+.navbar li a {
+  font-size: 14px;
+  float: left;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 168, 219);
+  border-radius: 70px;
+  animation: buttonAnimations 1s ease-in-out 0s infinite normal forwards;
+}
+@keyframes buttonAnimations {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+.dropdown-menu{
+  background: rgb(58, 62, 180);
+  background: linear-gradient(90deg,rgb(179, 74, 211) 50%,rgba(69, 177, 252, 1) 100%);
+  border-radius: 10px;
+}
+.navbar-brand{
+  height: 80px;
+  width: 70px;
+}
+#searchbar{
+  color: black;
+  background: rgb(255, 255, 255);
+  border-radius: 30px;
+  border-color: transparent;
+}
+#searchbar:hover{
+  color: white;
+  background-color: rgb(0, 168, 219);
+}
+.carouselcont{
+    height:50%;
+    width:100%;
+}
