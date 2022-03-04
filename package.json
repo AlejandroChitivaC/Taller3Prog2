@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "sass": "^1.49.9"
+    "json-server": "^0.17.0"
   }
 }
