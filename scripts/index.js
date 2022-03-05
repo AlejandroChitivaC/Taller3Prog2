@@ -4,13 +4,15 @@ let campo = document.querySelector("#socialcard")
 const getData = async () => {
 
     const resp = await fetch(url);
+    console.log(resp)
+
     const data = await resp.json();
     data.forEach(card => {
         const { nombre, imagen, precio } = card;
         campo.innerHTML += ` 
         <div class="card">
                 <img src="${imagen}" alt="">
-                <p>${nombre}</p>
+                <p style="color:blue">${"@" + nombre}</p>
                 <p>${precio}</p>
             </div>
         `
@@ -26,7 +28,7 @@ window.addEventListener('DOMContentLoaded', getData);
 //     const cards = await data;
 //     cards.forEach(card => {
 //         const { nombre, imagen } = card;
-//         campo.innerHTML += ` 
+//         campo.innerHTML += `
 //         <div class="card">
 //                 <img src="${imagen}" alt="">
 //                 <p>${nombre}</p>

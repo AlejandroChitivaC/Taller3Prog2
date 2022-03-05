@@ -1,66 +1,43 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+          animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .social-container {
   width: 400px;
   margin: 40vh auto;
   text-align: center;
 }
 
-.social-container .social-icons {
-  padding: 0;
-  list-style: none;
-  margin: 1em;
+.card {
+  height: 150px;
+  width: 100px;
 }
-
-.social-container li {
-  display: inline-block;
-  margin: 0.15em;
-  position: relative;
-  font-size: 1.2em;
-}
-
-.social-container i {
-  color: #fff;
-  position: absolute;
-  top: 21px;
-  left: 21px;
-  -webkit-transition: all 265ms ease-out;
-  transition: all 265ms ease-out;
-}
-
-.social-container a {
-  display: inline-block;
-}
-
-.social-container a:before {
-  transform: scale(1);
-  -ms-transform: scale(1);
-  -webkit-transform: scale(1);
-  content: " ";
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-  display: block;
-  background: linear-gradient(45deg, #00B5F5, #002A8F);
-  -webkit-transition: all 265ms ease-out;
-  transition: all 265ms ease-out;
-}
-
-.social-container a:hover:before {
-  -webkit-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: all 265ms ease-in;
-  transition: all 265ms ease-in;
-}
-
-.social-container a:hover i {
-  transform: scale(2.2);
-  -ms-transform: scale(2.2);
-  -webkit-transform: scale(2.2);
-  color: #00B5F5;
-  background: -webkit-linear-gradient(45deg, #00B5F5, #002A8F);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-transition: all 265ms ease-in;
-  transition: all 265ms ease-in;
-}
-
 /*# sourceMappingURL=stylessocial.css.map */
