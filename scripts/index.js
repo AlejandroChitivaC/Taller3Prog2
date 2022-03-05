@@ -12,7 +12,7 @@ const getData = async () => {
         campo.innerHTML += ` 
         <div class="card">
                 <img src="${imagen}" alt="">
-                <p style="color:blue">${"@" + nombre}</p>
+                <p style="color:blue; font-weight:bold">${"@" + nombre}</p>
                 <p>${precio}</p>
             </div>
         `
