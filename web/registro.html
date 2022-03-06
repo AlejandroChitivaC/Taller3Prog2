@@ -1,18 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/registro.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Registrate</title>
 </head>
+<header class="navbar">
+    <!--Inicio Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="/index.html"><img class="navbar-brand" src="/resources/aca.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a style="color: white; font-size: 18px;" class="nav-link" href="/web/login.html">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: white; font-size: 18px;" class="nav-link active" aria-current="page"
+                            href="/web/social.html">Social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: white; font-size: 18px;" class="nav-link" href="/web/tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a style="color: white; font-size: 18px;" class="nav-link dropdown-toggle" href="#"
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorías
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a style="color: white; font-size: 18px;" class="dropdown-item"
+                                    href="#">Arquitectura</a></li>
+                            <li><a style="color: white; font-size: 18px;" class="dropdown-item" href="#">Pintura</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a style="color: white; font-size: 18px;" class="dropdown-item" href="#">NFTs</a>
+                            </li>
+                            <li><a style="color: white; font-size: 18px;" class="dropdown-item" href="#">Arte</a>
+                            </li>
+                            <li><a style="color: white; font-size: 18px;" class="dropdown-item" href="#">Musica</a>
+                            </li>
+                            <li><a style="color: white; font-size: 18px;" class="dropdown-item" href="#">Deportes</a>
+                            </li>
+                            <li><a style="color: white; font-size: 18px;" class="dropdown-item" href="#">Utilidades</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form id="busqueda" class="d-flex">
+                    <input style="border-radius: 30px;" class="form-control me-2" type="search" placeholder="Buscar..."
+                        aria-label="Search">
+                    <button id="searchbar" class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+ <!--Fin navbar-->
+</header>
 <body>
+    <!--Formulario Registro-->
+    <div class="container">
+        <div class="title">Registro</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Nombre Completo</span>
+                <input type="text" placeholder="Ingresa tu nombre completo" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Username</span>
+                <input type="text" placeholder="Ingresa tu username" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="text" placeholder="Ingresa tu email" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Número Telefónico</span>
+                <input type="text" placeholder="Ingresa tu número de telefono" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Contraseña</span>
+                <input type="text" placeholder="Ingresa tu contraseña" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Confirmar Contraseña</span>
+                <input type="text" placeholder="Confirma tu contraseña" required>
+              </div>
+            </div>
+            <div class="gender-details">
+              <input type="radio" name="gender" id="dot-1">
+              <input type="radio" name="gender" id="dot-2">
+              <input type="radio" name="gender" id="dot-3">
+              <span class="gender-title">Género</span>
+              <div class="category">
+                <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Masculino</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Femenino</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Prefiero no decirlo</span>
+                </label>
+              </div>
+            </div>
+            <div class="button">
+              <input type="submit" value="Registrarse">
+            </div>
+          </form>
+        </div>
+      </div>
+    
     
 </body>
+<footer></footer>
+
 </html>

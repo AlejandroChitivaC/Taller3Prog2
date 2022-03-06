@@ -1,135 +1,193 @@
-.navbar
-    width: 100%
-    padding-left: 30px
-    background: rgb(58, 62, 180)
-    background: linear-gradient(90deg,rgba(58, 62, 180, 1) 0%,rgba(240, 129, 129, 1) 50%,rgba(69, 177, 252, 1) 100%);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+  background: url("https://bootdey.com/img/Content/bg1.jpg") no-repeat center
+    center fixed;
+  background-size: cover;
+}
+.navbar {
+  width: 100%;
+  padding-left: 30px;
+  background: #3a3eb4;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3a3eb4),
+    color-stop(50%, #f08181),
+    to(#45b1fc)
+  );
+  background: linear-gradient(90deg, #3a3eb4 0%, #f08181 50%, #45b1fc 100%);
+}
 
+.navbar li {
+  color: white;
+  list-style: none;
+  display: block;
+}
 
-    & li
-        color: white
-        list-style: none
-        display: block
+.navbar li a {
+  font-size: 14px;
+  float: left;
+  padding-left: 15px;
+  text-decoration: none;
+  border-radius: 70px;
+}
 
+.navbar li a:hover {
+  height: 100%;
+  width: 100%;
+  background-color: #00a8db;
+  border-radius: 70px;
+  -webkit-animation: buttonAnimations 1s ease-in-out 0s infinite normal forwards;
+  animation: buttonAnimations 1s ease-in-out 0s infinite normal forwards;
+}
 
-    & li a
-        font-size: 14px
-        float: left
-        padding-left: 15px
-        text-decoration: none
+@-webkit-keyframes buttonAnimations {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 
+@keyframes buttonAnimations {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 
-    & li a:hover
-        height: 100%
-        width: 100%
-        background-color: rgb(0, 168, 219)
-        border-radius: 70px
-        animation: buttonAnimations 1s ease-in-out 0s infinite normal forwards
+.dropdown-menu {
+  background: #3a3eb4;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(50%, #b34ad3),
+    to(#45b1fc)
+  );
+  background: linear-gradient(90deg, #b34ad3 50%, #45b1fc 100%);
+  border-radius: 10px;
+}
 
-@keyframes buttonAnimations
-    0%
-        transform: scale(1)
+.navbar-brand {
+  height: 80px;
+  width: 70px;
+}
 
-    50%
-        transform: scale(1.1)
+#searchbar {
+  color: black;
+  background: white;
+  border-radius: 30px;
+  border-color: transparent;
+}
 
-    100%
-        transform: scale(1)
+#searchbar:hover {
+  color: white;
+  background-color: #00a8db;
+}
+.carousel {
+  height: 800px;
+  width: 100%;
 
-.dropdown-menu
-    background: rgb(58, 62, 180)
-    background: linear-gradient(90deg,rgb(179, 74, 211) 50%,rgba(69, 177, 252, 1) 100%)
-    border-radius: 10px
+}
 
-.navbar-brand
-    height: 80px
-    width: 70px
+.carousel img {
+  height: 800px;
+  width: 100%;
+}
 
-#searchbar
-    color: black
-    background: rgb(255, 255, 255)
-    border-radius: 30px
-    border-color: transparent
+.carousel-inner {
+  height: 800px;
+}
 
+.social-container {
+  width: 400px;
+  margin: 40vh auto;
+  text-align: center;
+}
 
-    &:hover
-        color: white
-        background-color: rgb(0, 168, 219)
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+.social-icons{
+  margin-top: 4rem;
+}
+.social-icons li {
+  display: inline-block;
+  padding-left:5px;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.2em;
+}
 
-.carousel
-    margin-top: 5px
-    height: 400px
-    width: 100%
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  padding-left:5px;
+  -webkit-transition: all 265ms ease-out;
+  transition: all 265ms ease-out;
+}
 
+.social-icons a {
+  display: inline-block;
+}
+.social-icons p{
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
 
-    & img
-        height: 500px
-        width: 100%
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  padding-left:5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #00b5f5, #002a8f);
+  -webkit-transition: all 265ms ease-out;
+  transition: all 265ms ease-out;
+}
 
+.social-icons a:hover:before {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 265ms ease-in;
+  transition: all 265ms ease-in;
+}
 
-    &-inner
-        height: 500px
-
-    @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-
-$timing: 265ms
-$iconColor: #00B5F5
-$accent: #002A8F
-$bluefade: #0043E0
-$gradient: #00B5F5
-
-@mixin transformScale($size: 1)
-    transform: scale($size)
-    -ms-transform: scale($size)
-    -webkit-transform: scale($size)
-
-body
-    background-color: rgba($iconColor, 0.05)
-
-.social-container
-    width: 400px
-    margin: 40vh auto
-    text-align: center
-
-.social-icons
-    padding: 0
-    list-style: none
-    margin: 1em
-
-    li
-        display: inline-block
-        margin: 0.15em
-        position: relative
-        font-size: 1.2em
-
-    i
-        color: #fff
-        position: absolute
-        top: 21px
-        left: 21px
-        transition: all $timing ease-out
-
-    a
-        display: inline-block
-
-        &:before
-            @include transformScale()
-            content: " "
-            width: 60px
-            height: 60px
-            border-radius: 100%
-            display: block
-            background: linear-gradient(45deg, $iconColor, $accent)
-            transition: all $timing ease-out
-
-        &:hover:before
-            transform: scale(0)
-            transition: all $timing ease-in
-
-        &:hover i
-            @include transformScale(2.2)
-            color: $iconColor
-            background: -webkit-linear-gradient(45deg, $iconColor, $accent)
-            -webkit-background-clip: text
-            -webkit-text-fill-color: transparent
-            transition: all $timing ease-in
-            
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #00b5f5;
+  background: -webkit-linear-gradient(45deg, #00b5f5, #002a8f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: all 265ms ease-in;
+  transition: all 265ms ease-in;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,9 +1,21 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+  background: url("https://bootdey.com/img/Content/bg1.jpg") no-repeat center
+    center fixed;
+  background-size: cover;
+}
 .navbar {
   width: 100%;
   padding-left: 30px;
   background: #3a3eb4;
-  background: -webkit-gradient(linear, left top, right top, from(#3a3eb4), color-stop(50%, #f08181), to(#45b1fc));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3a3eb4),
+    color-stop(50%, #f08181),
+    to(#45b1fc)
+  );
   background: linear-gradient(90deg, #3a3eb4 0%, #f08181 50%, #45b1fc 100%);
 }
 
@@ -18,6 +30,7 @@
   float: left;
   padding-left: 15px;
   text-decoration: none;
+  border-radius: 70px;
 }
 
 .navbar li a:hover {
@@ -26,42 +39,48 @@
   background-color: #00a8db;
   border-radius: 70px;
   -webkit-animation: buttonAnimations 1s ease-in-out 0s infinite normal forwards;
-          animation: buttonAnimations 1s ease-in-out 0s infinite normal forwards;
+  animation: buttonAnimations 1s ease-in-out 0s infinite normal forwards;
 }
 
 @-webkit-keyframes buttonAnimations {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes buttonAnimations {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 .dropdown-menu {
   background: #3a3eb4;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #b34ad3), to(#45b1fc));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(50%, #b34ad3),
+    to(#45b1fc)
+  );
   background: linear-gradient(90deg, #b34ad3 50%, #45b1fc 100%);
   border-radius: 10px;
 }
@@ -82,24 +101,19 @@
   color: white;
   background-color: #00a8db;
 }
-
 .carousel {
-  margin-top: 5px;
-  height: 400px;
+  height: 600px;
   width: 100%;
+
 }
 
 .carousel img {
-  height: 500px;
+  height: 600px;
   width: 100%;
 }
 
 .carousel-inner {
-  height: 500px;
-}
-
-body {
-  background-color: rgba(0, 181, 245, 0.05);
+  height: 600px;
 }
 
 .social-container {
@@ -113,9 +127,12 @@ body {
   list-style: none;
   margin: 1em;
 }
-
+.social-icons{
+  margin-top: 4rem;
+}
 .social-icons li {
   display: inline-block;
+  padding-left:5px;
   margin: 0.15em;
   position: relative;
   font-size: 1.2em;
@@ -126,6 +143,7 @@ body {
   position: absolute;
   top: 21px;
   left: 21px;
+  padding-left:5px;
   -webkit-transition: all 265ms ease-out;
   transition: all 265ms ease-out;
 }
@@ -133,24 +151,30 @@ body {
 .social-icons a {
   display: inline-block;
 }
+.social-icons p{
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
 
 .social-icons a:before {
   transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
   content: " ";
+  padding-left:5px;
   width: 60px;
   height: 60px;
   border-radius: 100%;
   display: block;
-  background: linear-gradient(45deg, #00B5F5, #002A8F);
+  background: linear-gradient(45deg, #00b5f5, #002a8f);
   -webkit-transition: all 265ms ease-out;
   transition: all 265ms ease-out;
 }
 
 .social-icons a:hover:before {
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   -webkit-transition: all 265ms ease-in;
   transition: all 265ms ease-in;
 }
@@ -159,8 +183,8 @@ body {
   transform: scale(2.2);
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);
-  color: #00B5F5;
-  background: -webkit-linear-gradient(45deg, #00B5F5, #002A8F);
+  color: #00b5f5;
+  background: -webkit-linear-gradient(45deg, #00b5f5, #002a8f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: all 265ms ease-in;

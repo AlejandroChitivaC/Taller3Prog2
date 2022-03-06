@@ -24,6 +24,7 @@ body {
 	float: left;
 	padding-left: 15px;
 	text-decoration: none;
+	border-radius: 70px;
   }
   
   .navbar li a:hover {
@@ -88,4 +89,8 @@ body {
 	color: white;
 	background-color: #00a8db;
   }
+  .gradient-custom {
+	background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+  
   

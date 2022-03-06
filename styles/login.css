@@ -22,6 +22,7 @@ body {
   float: left;
   padding-left: 15px;
   text-decoration: none;
+  border-radius: 70px;
 }
 
 .navbar li a:hover {
@@ -85,5 +86,10 @@ body {
 #searchbar:hover {
   color: white;
   background-color: #00a8db;
+}
+
+.gradient-custom {
+  background: -webkit-gradient(linear, left top, right top, from(#6a11cb), to(#2575fc));
+  background: linear-gradient(to right, #6a11cb, #2575fc);
 }
 /*# sourceMappingURL=login.css.map */
