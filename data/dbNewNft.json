@@ -1,0 +1,11 @@
+{
+    "usuario": [
+        {
+            "nombre": "Juan",
+            "imagen": "Perez",
+            "precio": "25 FCoins",
+            "likes": 0,
+            "id": 0
+        }
+        ]
+    }

@@ -8,12 +8,14 @@ const getData = async () => {
 
     const data = await resp.json();
     data.forEach(card => {
-        const { nombre, imagen, precio } = card;
+        const { nombre, imagen, categoria,precio,likes } = card;
         campo.innerHTML += ` 
         <div class="card">
                 <img src="${imagen}" alt="">
                 <p style="color:blue; font-weight:bold">${"@" + nombre}</p>
                 <p>${precio}</p>
+                <p>${"Categoría: " + categoria}</p>
+                <button class="btn btn-primary">${likes} Like</button>
             </div>
         `
     })
