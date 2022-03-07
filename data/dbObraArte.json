@@ -1,84 +1,84 @@
 {
-    "obrasarte": [
-        {
-            "nombre": "Camilo",
-            "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351632/Taller2prg2/steve-johnson-b5HMwgoU2h4-unsplash_ae64tr.jpg",
-            "categoria":"arte",
-            "precio": "3.500 FCoins",
-            "likes": 0,
-            "id": 0
-        },
-        {
-            "nombre": "NFT ART",
-            "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351631/Taller2prg2/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash_poarhq.jpg",
-            "categoria":"arte",
-            "precio": "1.500 FCoins",
-            "likes": 0,
-            "id": 1
-        },
-        {
-            "nombre": "Fancho",
-            "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351632/Taller2prg2/steve-johnson-b5HMwgoU2h4-unsplash_ae64tr.jpg",
-            "categoria":"arte",
-            "precio": "8.100 FCoins",
-            "likes": 0,
-            "id": 2
-        },
-        {
-            "nombre": "ramboman",
-            "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351628/Taller2prg2/bia-andrade-PO8Woh4YBD8-unsplash_cnej13.jpg",
-            "categoria":"arte",
-            "precio": "5.500 FCoins",
-            "likes": 0,
-            "id": 3
-        },
-        {
-            "nombre": "juanchopancho2pp",
-            "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351626/Taller2prg2/pineapple-supply-co-FivolqHz3bg-unsplash_pvmzzk.jpg",
-            "categoria":"arte",
-            "precio": "3.500 FCoins",
-            "likes": 0,
-            "id": 4
-        },
-        {
-            "nombre": "Camilo2003412",
-            "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351626/Taller2prg2/henrik-donnestad-V6Qd6zA85ck-unsplash_nmj1n1.jpg",
-            "categoria":"arte",
-            "precio": "8.500 FCoins",
-            "likes": 0,
-            "id": 5
-        },
-        {
-            "nombre": "papitas2000",
-            "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351626/Taller2prg2/orfeas-green-G5A5ZNjS2tE-unsplash_ugh234.jpg",
-            "categoria":"arte",
-            "precio": "22.500 FCoins",
-            "likes": 0,
-            "id": 6
-        },
-        {
-            "nombre": "mynft2344",
-            "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351623/Taller2prg2/klaudia-piaskowska-g55bG1O5Lf0-unsplash_vjidfp.jpg",
-            "categoria":"arte",
-            "precio": "32.500 FCoins",
-            "likes": 0,
-            "id": 7
-        },
-        {
-            "nombre": "Cc22311",
-            "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351623/Taller2prg2/henrik-donnestad-t2Sai-AqIpI-unsplash_itixd9.jpg",
-            "categoria":"arte",
-            "precio": "3.500 FCoins",
-            "likes": 0,
-            "id": 8
-        },
-        {
-            "nombre": "sacas222",
-            "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351623/Taller2prg2/henrik-donnestad-t2Sai-AqIpI-unsplash_itixd9.jpg",
-            "categoria":"arte",
-            "precio": "23.500 FCoins",
-            "likes": 0,
-            "id": 9
-        }
-    ]
+  "obrasarte": [
+    {
+      "nombre": "Camilo",
+      "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351632/Taller2prg2/steve-johnson-b5HMwgoU2h4-unsplash_ae64tr.jpg",
+      "categoria": "arte",
+      "precio": "3.500 FCoins",
+      "likes": 0,
+      "id": 0
+    },
+    {
+      "nombre": "NFT ART",
+      "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351631/Taller2prg2/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash_poarhq.jpg",
+      "categoria": "arte",
+      "precio": "1.500 FCoins",
+      "likes": 0,
+      "id": 1
+    },
+    {
+      "nombre": "Fancho",
+      "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351632/Taller2prg2/steve-johnson-b5HMwgoU2h4-unsplash_ae64tr.jpg",
+      "categoria": "arte",
+      "precio": "8.100 FCoins",
+      "likes": 0,
+      "id": 2
+    },
+    {
+      "nombre": "ramboman",
+      "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351628/Taller2prg2/bia-andrade-PO8Woh4YBD8-unsplash_cnej13.jpg",
+      "categoria": "arte",
+      "precio": "5.500 FCoins",
+      "likes": 0,
+      "id": 3
+    },
+    {
+      "nombre": "juanchopancho2pp",
+      "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351626/Taller2prg2/pineapple-supply-co-FivolqHz3bg-unsplash_pvmzzk.jpg",
+      "categoria": "arte",
+      "precio": "3.500 FCoins",
+      "likes": 0,
+      "id": 4
+    },
+    {
+      "nombre": "Camilo2003412",
+      "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351626/Taller2prg2/henrik-donnestad-V6Qd6zA85ck-unsplash_nmj1n1.jpg",
+      "categoria": "arte",
+      "precio": "8.500 FCoins",
+      "likes": 0,
+      "id": 5
+    },
+    {
+      "nombre": "papitas2000",
+      "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351626/Taller2prg2/orfeas-green-G5A5ZNjS2tE-unsplash_ugh234.jpg",
+      "categoria": "arte",
+      "precio": "22.500 FCoins",
+      "likes": 0,
+      "id": 6
+    },
+    {
+      "nombre": "mynft2344",
+      "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351623/Taller2prg2/klaudia-piaskowska-g55bG1O5Lf0-unsplash_vjidfp.jpg",
+      "categoria": "arte",
+      "precio": "32.500 FCoins",
+      "likes": 0,
+      "id": 7
+    },
+    {
+      "nombre": "Cc22311",
+      "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351623/Taller2prg2/henrik-donnestad-t2Sai-AqIpI-unsplash_itixd9.jpg",
+      "categoria": "arte",
+      "precio": "3.500 FCoins",
+      "likes": 0,
+      "id": 8
+    },
+    {
+      "nombre": "sacas222",
+      "imagen": "https://res.cloudinary.com/dzde4ldpf/image/upload/v1646351623/Taller2prg2/henrik-donnestad-t2Sai-AqIpI-unsplash_itixd9.jpg",
+      "categoria": "arte",
+      "precio": "23.500 FCoins",
+      "likes": 0,
+      "id": 9
+    }
+  ]
 }

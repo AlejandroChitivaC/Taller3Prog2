@@ -15,7 +15,7 @@ const getData = async () => {
                 <p style="color:blue; font-weight:bold">${"@" + nombre}</p>
                 <p>${precio}</p>
                 <p>${"Categoría: " + categoria}</p>
-                <button class="btn btn-primary">${likes} Like</button>
+                <button class="btn btn-primary" style="border-radius:50px">${likes} Like</button>
             </div>
         `
     })
