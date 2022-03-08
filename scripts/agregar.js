@@ -2,8 +2,8 @@ let formulario = document.getElementById('formulario');
 const url = (" http://localhost:1000/obrasarte/");
 window.addEventListener('DOMContentLoaded', async () => {
 })
-formulario.addEventListener('submit', async (e) => {
-    e.preventDefault();
+formulario.addEventListener('submit', async (esc) => {
+    esc.preventDefault();
     //capturando los datos del html y los voy a enviar a mi data.json
     let username = document.getElementById('username').value;
     let nombre = document.getElementById('name').value;

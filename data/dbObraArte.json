@@ -79,6 +79,13 @@
       "precio": "23.500 FCoins",
       "likes": 0,
       "id": 9
+    },
+    {
+      "username": "",
+      "name": "",
+      "descripcion": "",
+      "foto": "",
+      "id": 10
     }
   ]
 }
