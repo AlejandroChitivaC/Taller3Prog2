@@ -1,15 +1,15 @@
 const url = " https://db-alejandro.herokuapp.com/obrasarte/"
 let campo = document.querySelector("#socialcard")
+// se trae la info del .json
 //contador likes
 let contador=0;
 let msg="Solo puedes dar un clic por obra de arte"
-function contador(){
+function contar(){
     document.getElementById("btnlikes").innerHTML=contador++;
     if(counter>1){
         alert(msg)
     }
 }
-// se trae la info del .json
 const getData = async () => {
 
     const resp = await fetch(url);
@@ -24,7 +24,7 @@ const getData = async () => {
                 <p style="color:blue; font-weight:bold">${"@" + nombre}</p>
                 <p>${precio}</p>
                 <p>${"Categoría: " + categoria}</p>
-                <button id="btnlikes" class="btn btn-primary" style="border-radius:50px" >${likes}Like</button>
+                <button id="btnlikes" class="btn btn-primary" style="border-radius:50px" onclick="contar">${likes}Like</button>
             </div> 
         `
 
