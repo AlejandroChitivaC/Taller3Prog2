@@ -1,5 +1,5 @@
 let formulario = document.getElementById('formulario');
-const url = (" http://localhost:1000/obrasarte/");
+const url = ("https://db-alejandro.herokuapp.com/obrasarte/");
 window.addEventListener('DOMContentLoaded', async () => {
 })
 formulario.addEventListener('submit', async (esc) => {

@@ -1,4 +1,4 @@
-const url = " http://localhost:1000/obrasarte/"
+const url = " https://db-alejandro.herokuapp.com/obrasarte/"
 let campo = document.querySelector("#socialcard")
 // se trae la info del .json
 const getData = async () => {
@@ -15,9 +15,12 @@ const getData = async () => {
                 <p style="color:blue; font-weight:bold">${"@" + nombre}</p>
                 <p>${precio}</p>
                 <p>${"Categoría: " + categoria}</p>
-                <button class="btn btn-primary" style="border-radius:50px">${likes} Like</button>
-            </div>
+                <button id="btnlikes" class="btn btn-primary" style="border-radius:50px">${likes} Like</button>
+            </div> 
         `
+
+
+        
     })
 }
 
