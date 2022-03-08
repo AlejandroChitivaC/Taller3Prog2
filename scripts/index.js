@@ -28,22 +28,6 @@ const getData = async () => {
             </div> 
         `
 
-        var btnlikes = 0;
-
-        //AÑADE UN CLICK AL EJECUTAR LA FUNCIÓN
-        function btnlikes_add() {
-            btnlikes += 1;
-        }
-
-        //MUESTRA CUANTOS CLICK LLEVAMOS
-        $("#btnlikes").text(btnlikes);
-
-        //AÑADE A TODOS LOS BOTONES CON EL NAME btnlikes QUE AL SER PULSADOS EJECUTEN EL CONTADOR
-        $(document).ready(function () {
-            $("button[name='btnlikes']").click(function () {
-                btnlikes_add();
-            });
-        });
 
 
 
